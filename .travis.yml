@@ -3,9 +3,9 @@ android:
   components:
     - tools
     - platform-tools
-    - build-tools-27.0.2
+    - tools
+    - build-tools-27.0.3
     - android-27
-    - extra
   licenses:
     - 'android-sdk-preview-license-.+'
     - 'android-sdk-license-.+'
