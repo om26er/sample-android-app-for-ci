@@ -15,5 +15,5 @@ android:
     file: app/build/outputs/apk/release/app-release-unsigned.apk
     skip_cleanup: true
     on:
-      tags: true
+      tags: false
     api_key: $GITHUB_OAUTH_TOKEN
