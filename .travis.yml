@@ -12,10 +12,9 @@ android:
     - 'google-gdk-license-.+'
   deploy:
     provider: releases
-    file: app/build/outputs/apk/app-release.apk
+    file: app/build/outputs/apk/app-debug.apk
     skip_cleanup: true
     on:
-      repo: om26er/sample-android-app-for-ci
       tags: true
     api_key:
-      secure: s+ZX2LA7Mhc9PQSBBZVV9Q2WVBq7gWbfXImmK2RF0foZ/lgMmO4Prox0M8WJXpANxqySTzEnCC/IgpUKNjY5ZKopc8RxANWiW2L2W1FTr6nKGULyB9Ygb/xv1h/PMoGjYYhfILxFa6s2I8J1L36hXFqEqXj7Jth5uhbimBr680p+kjRr7kz9giW/DMZ/eNiWPtaNb1JUTdE+LsHlwgZqZc9784eF84+beLkd28t0GOc/NOnmINZlnfpQXPMS1+VJ3G0Fb/r86ogB7Wb4nw4rqPz2+lZe9+ZUEveHiH+839NARB8Ab+jLrzKHwOu6UFnu5Ebx1wROfPTIf7WgCXKwHWGCZ2+Az3Z/+v8/aYVMncp1sE07q0TQ3diFYBZ8wVLaJk85W4f+WWppOkDedfSYp4R9PVTCaPLdOCcv5O0WbLCsImvFaazmb7xEymJMjw2y+cKd5RJUZtX+3K+LPIxYnOBwrlWArEb7fHTWp3AZeJLqYqhmnZTHj+CQh36aPzJRJbYznoELQiJUiKDYCH/m3AFuVnufu+Sw9u8qsjF5O5edKtM5ESVofmDviQ0igx5b7iaWXZ8a1yyfL/3ahy5O8FlVWcxrOfOND+VDGt/z5pf4KDKA8mRNTAHx/njusXaAgaOBLqYY/r9wc3kJArfBOPkdIat8EjWl9y7uLQ3Ygi0=
+      secure: "s+ZX2LA7Mhc9PQSBBZVV9Q2WVBq7gWbfXImmK2RF0foZ/lgMmO4Prox0M8WJXpANxqySTzEnCC/IgpUKNjY5ZKopc8RxANWiW2L2W1FTr6nKGULyB9Ygb/xv1h/PMoGjYYhfILxFa6s2I8J1L36hXFqEqXj7Jth5uhbimBr680p+kjRr7kz9giW/DMZ/eNiWPtaNb1JUTdE+LsHlwgZqZc9784eF84+beLkd28t0GOc/NOnmINZlnfpQXPMS1+VJ3G0Fb/r86ogB7Wb4nw4rqPz2+lZe9+ZUEveHiH+839NARB8Ab+jLrzKHwOu6UFnu5Ebx1wROfPTIf7WgCXKwHWGCZ2+Az3Z/+v8/aYVMncp1sE07q0TQ3diFYBZ8wVLaJk85W4f+WWppOkDedfSYp4R9PVTCaPLdOCcv5O0WbLCsImvFaazmb7xEymJMjw2y+cKd5RJUZtX+3K+LPIxYnOBwrlWArEb7fHTWp3AZeJLqYqhmnZTHj+CQh36aPzJRJbYznoELQiJUiKDYCH/m3AFuVnufu+Sw9u8qsjF5O5edKtM5ESVofmDviQ0igx5b7iaWXZ8a1yyfL/3ahy5O8FlVWcxrOfOND+VDGt/z5pf4KDKA8mRNTAHx/njusXaAgaOBLqYY/r9wc3kJArfBOPkdIat8EjWl9y7uLQ3Ygi0="
