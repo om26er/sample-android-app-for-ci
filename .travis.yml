@@ -1,19 +1,19 @@
 language: android
 android:
   components:
-    - tools
-    - platform-tools
-    - tools
-    - build-tools-27.0.3
-    - android-27
+  - tools
+  - platform-tools
+  - tools
+  - build-tools-27.0.3
+  - android-27
   licenses:
-    - 'android-sdk-preview-license-.+'
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
-  deploy:
-    provider: releases
-    file: app/build/outputs/apk/release/app-release-unsigned.apk
-    skip_cleanup: true
-    on:
-      tags: false
-    api_key: $GITHUB_OAUTH_TOKEN
+  - android-sdk-preview-license-.+
+  - android-sdk-license-.+
+  - google-gdk-license-.+
+deploy:
+  provider: releases
+  file: app/build/outputs/apk/release/app-release-unsigned.apk
+  skip_cleanup: true
+  on:
+    tags: true
+  api_key: "$GITHUB_OAUTH_TOKEN"
