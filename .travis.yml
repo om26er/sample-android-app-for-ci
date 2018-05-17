@@ -12,7 +12,7 @@ android:
     - 'google-gdk-license-.+'
   deploy:
     provider: releases
-    file: app/build/outputs/apk/app-debug.apk
+    file: app/build/outputs/apk/release/app-release-unsigned.apk
     skip_cleanup: true
     on:
       tags: true
